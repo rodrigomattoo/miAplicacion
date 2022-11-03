@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CarritoComponent } from './pages/carrito/carrito.component';
 import { CarritoItemComponent } from './components/carrito-item/carrito-item.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
     FooterComponent,
     CarritoComponent,
     CarritoItemComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    SigninComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
